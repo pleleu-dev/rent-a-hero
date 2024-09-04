@@ -1,0 +1,21 @@
+{
+	"extends": "@core/tsconfig/base.json",
+	"include": [
+		"**/*.ts",
+		"**/*.tsx",
+		"**/.server/**/*.ts",
+		"**/.server/**/*.tsx",
+		"**/.client/**/*.ts",
+		"**/.client/**/*.tsx"
+	],
+	"compilerOptions": {
+		"types": ["@remix-run/node", "vite/client"],
+		"module": "ESNext",
+		"moduleResolution": "Bundler",
+		"forceConsistentCasingInFileNames": true,
+		"baseUrl": ".",
+		"paths": {
+			"~/*": ["./app/*"]
+		}
+	}
+}
