@@ -42,6 +42,8 @@ The turbo.json file configures Turbo tasks for building the application. Current
 
 `build`: Builds the application.
 
+`storybook`: Start storybook.
+
 `test`: Test the application.
 
 `ts:check`: Runs type checking on TypeScript files.
