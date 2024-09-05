@@ -1,8 +1,5 @@
 import type { MetaFunction } from "@remix-run/node";
-import { Content } from "@ui/content";
-import { Layout } from "@ui/layout";
-import { Navigation } from "@ui/navigation";
-import { Tabs } from "@ui/tabs";
+import { Content, Layout, Navigation, Tabs } from "@wnmx/ui";
 
 export const meta: MetaFunction = () => {
 	return [
@@ -17,14 +14,12 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
 	return (
-		<div className="p-4">
-			<Layout>
-				<Navigation />
-				<Content>
-					<h1 className="text-2xl font-bold">Welcome to Winamax</h1>
-				</Content>
-				<Tabs />
-			</Layout>
-		</div>
+		<Layout>
+			<Navigation />
+			<Content>
+				<h1 className="text-2xl font-bold">Welcome to Winamax</h1>
+			</Content>
+			<Tabs />
+		</Layout>
 	);
 }

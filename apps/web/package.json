@@ -1,5 +1,7 @@
 {
 	"name": "web",
+	"description": "Web frontend for the poker tournaments app",
+	"version": "1.0.0",
 	"private": true,
 	"sideEffects": false,
 	"type": "module",
@@ -12,12 +14,8 @@
 		"ts:check": "tsc --noEmit"
 	},
 	"dependencies": {
-		"@poker/tournaments-search": "workspace:*",
-		"@poker/tournaments-registration": "workspace:*",
-		"@ui/layout": "workspace:*",
-		"@ui/navigation": "workspace:*",
-		"@ui/tabs": "workspace:*",
-		"@ui/content": "workspace:*",
+		"@wnmx-poker/tournament": "workspace:*",
+		"@wnmx/ui": "workspace:*",
 		"@remix-run/node": "^2.11.1",
 		"@remix-run/react": "^2.11.1",
 		"@remix-run/serve": "^2.11.1",
@@ -26,7 +24,6 @@
 		"react-dom": "^18.2.0"
 	},
 	"devDependencies": {
-		"@core/tsconfig": "workspace:*",
 		"@remix-run/dev": "^2.11.1",
 		"@types/react": "^18.2.20",
 		"@types/react-dom": "^18.2.7",

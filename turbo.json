@@ -10,6 +10,11 @@
         "!.next/cache/**"
       ]
     },
+    "test": {
+      "dependsOn": [
+        "^test"
+      ]
+    },
     "ts:check": {
       "dependsOn": [
         "^ts:check"
