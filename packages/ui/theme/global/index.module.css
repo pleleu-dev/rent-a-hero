@@ -1,0 +1,8 @@
+body {
+  background-color: #c2c7d6;
+}
+
+body * {
+  font-family: 'archivo_regular', Verdana, Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}

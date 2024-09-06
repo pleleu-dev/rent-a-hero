@@ -3,7 +3,7 @@
 
 
 @font-face {
-    font-family: 'archivo_narrowsemibold';
+    font-family: 'archivo_semibold';
     src: url('archivonarrow-semibold-webfont.woff2') format('woff2'),
          url('archivonarrow-semibold-webfont.woff') format('woff');
     font-weight: normal;
@@ -15,7 +15,7 @@
 
 
 @font-face {
-    font-family: 'archivo_narrowregular';
+    font-family: 'archivo_regular';
     src: url('archivonarrow-regular-webfont.woff2') format('woff2'),
          url('archivonarrow-regular-webfont.woff') format('woff');
     font-weight: normal;
@@ -27,7 +27,7 @@
 
 
 @font-face {
-    font-family: 'archivo_narrowmedium';
+    font-family: 'archivo_medium';
     src: url('archivonarrow-medium-webfont.woff2') format('woff2'),
          url('archivonarrow-medium-webfont.woff') format('woff');
     font-weight: normal;
@@ -39,7 +39,7 @@
 
 
 @font-face {
-    font-family: 'archivo_narrowbold';
+    font-family: 'archivo_bold';
     src: url('archivonarrow-bold-webfont.woff2') format('woff2'),
          url('archivonarrow-bold-webfont.woff') format('woff');
     font-weight: normal;
