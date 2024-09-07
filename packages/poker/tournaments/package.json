@@ -10,6 +10,7 @@
 		"lint:fix": "biome check --fix"
 	},
 	"dependencies": {
+		"@wnmx/ui": "workspace:*",
 		"react": "^18"
 	},
 	"devDependencies": {

@@ -1,0 +1,36 @@
+.container {
+  display: grid;
+  justify-content: space-between;
+  align-content: center;
+  grid-template-columns: repeat(3, 4fr) 3fr repeat(2, 4fr);
+}
+
+.container > * {
+  display: flex;
+  align-items: center;
+}
+
+.container > *:first-child {
+  justify-content: start;
+}
+
+.container > *:nth-child(2) {
+  justify-content: start
+}
+
+.container > *:nth-child(3) {
+  justify-content: end;
+}
+.container > *:nth-child(4) {
+  justify-content: end;
+}
+
+.container > *:nth-child(5) {
+  justify-content: end;
+}
+
+.container > *:last-child {
+  justify-content: end;
+}
+
+

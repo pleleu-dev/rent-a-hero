@@ -20,6 +20,9 @@ importers:
 
   apps/storybook:
     dependencies:
+      '@wnmx-poker/tournament':
+        specifier: workspace:*
+        version: link:../../packages/poker/tournaments
       '@wnmx/ui':
         specifier: workspace:*
         version: link:../../packages/ui
@@ -188,6 +191,9 @@ importers:
 
   packages/poker/tournaments:
     dependencies:
+      '@wnmx/ui':
+        specifier: workspace:*
+        version: link:../../ui
       react:
         specifier: ^18
         version: 18.3.1

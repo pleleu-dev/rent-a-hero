@@ -1,0 +1,51 @@
+.filter {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding : 20px;
+  background-color: var(--white);
+  font-family: var(--ft-bold);
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.filterBox {
+  flex-direction: column;
+}
+
+.search {
+  color: var(--primary);
+}
+
+.close {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  color: var(--primary);
+
+}
+
+.title{
+  font-family: var(--ft-semi-bold);
+  font-size: 18px;
+  line-height: 18px;
+  margin-top: 10px;
+}
+
+.label{
+  align-self: flex-start;
+  font-size : 16px;
+  font-family: var(--ft-semi-bold);
+}
+
+.criteria{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.rangeSlider{
+  margin-top: 10px;
+}
+
