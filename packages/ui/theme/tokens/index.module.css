@@ -1,17 +1,26 @@
 :root {
   /* Colors */
-
+  --white: #ffffff;
   --dark: #0d0d0d;
   --light: #f0f1f5;
   --highlight: #ffbf00;
   --primary: #aa0909;
   --secondary: #33cc7f;
   --secondary-dark: #145233;
+  --background: #c2c7d6;
+
 
   /* Border radius */
   --rounded-sm: 8px;
   --rounded-md: 16px;
   --rounded-lg: 24px;
 
+    /* Shadow */
   --shadow : rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  --dark-shadow : rgba(0, 0, 0, 0.15) 0px 2px 8px; 
+  /* Font */
+  --ft-regular: 'archivo_regular', Verdana, Arial, Helvetica, sans-serif;
+  --ft-medium: 'archivo_medium', Verdana, Arial, Helvetica, sans-serif;
+  --ft-semi-bold: 'archivo_semibold', Verdana, Arial, Helvetica, sans-serif;
+  --ft-bold: 'archivo_bold', Verdana, Arial, Helvetica, sans-serif;
 }
