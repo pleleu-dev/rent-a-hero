@@ -1,0 +1,46 @@
+.iconList {
+    display : flex;
+    gap :4px;
+}
+
+.icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../assets/icons.png);
+    background-repeat: no-repeat;
+    border-radius: var(--rounded-sm);
+    overflow:hidden;
+}
+
+.wi {
+    background-position: -10px -10px;
+}
+
+.ree {
+    background-position: -54px -10px;
+}
+
+.mt {
+    background-position: -10px -54px;
+}
+
+.mst {
+    background-position: -54px -54px;
+}
+
+.mko {
+    background-position: -98px -10px;
+}
+
+.m {
+    background-position: -98px -54px;
+}
+
+.ko {
+    background-position: -10px -98px;
+}
+
+.f {
+    background-position: -54px -98px;
+}

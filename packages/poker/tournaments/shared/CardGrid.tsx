@@ -1,6 +1,14 @@
 import style from "./CardGrid.module.css";
 
-const CardGrid = ({ children }: React.PropsWithChildren) => {
-	return <div className={style.container}>{children}</div>;
+type CardGridProps = {
+	className?: string;
+};
+
+const CardGrid = ({
+	children,
+	className = "",
+}: React.PropsWithChildren<CardGridProps>) => {
+	const cardGridStyle = `${style.cardGrid} ${className}`;
+	return <div className={cardGridStyle}>{children}</div>;
 };
 export { CardGrid };
