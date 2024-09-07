@@ -1,4 +1,7 @@
 .navigation {
-  font-family: "archivo_narrowregular", Verdana, Arial, Helvetica, sans-serif;
-  background-color: var(--primary);
+  display: flex;
+  justify-content: center;
+  height:100%;
+  padding: 10px 0;
+  background-color: var(--white);
 }

@@ -1,8 +1,11 @@
+import logo from "../assets/logo.svg";
 import style from "./index.module.css";
 
 const Navigation = () => {
 	return (
-		<div className={style.navigation}>Hey, I'm the navigation component</div>
+		<header className={style.navigation}>
+			<img src={logo} alt="Winamax" width="60" height="60" />
+		</header>
 	);
 };
 export { Navigation };
