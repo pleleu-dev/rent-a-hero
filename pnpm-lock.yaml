@@ -84,12 +84,18 @@ importers:
       msw-storybook-addon:
         specifier: ^2.0.2
         version: 2.0.3(msw@2.4.2(typescript@5.5.4))
+      postcss:
+        specifier: ^8.4.38
+        version: 8.4.45
       prop-types:
         specifier: ^15.8.1
         version: 15.8.1
       storybook:
         specifier: ^8.1.4
         version: 8.2.9(@babel/preset-env@7.25.4(@babel/core@7.25.2))
+      tailwindcss:
+        specifier: ^3.4.4
+        version: 3.4.10
       vite:
         specifier: ^5.2.0
         version: 5.4.3(@types/node@22.5.3)(less@4.2.0)(sass@1.78.0)(stylus@0.62.0)

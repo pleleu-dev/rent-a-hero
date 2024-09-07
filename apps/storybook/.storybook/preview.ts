@@ -1,5 +1,6 @@
 // @ts-ignore : this import will add the theme to the storybook preview
 import { theme } from "@wnmx/ui";
+import "../src/styles/tailwind.css";
 import "../src/styles/global.css";
 
 import {
