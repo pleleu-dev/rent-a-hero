@@ -7,4 +7,11 @@
   --primary: #aa0909;
   --secondary: #33cc7f;
   --secondary-dark: #145233;
+
+  /* Border radius */
+  --rounded-sm: 8px;
+  --rounded-md: 16px;
+  --rounded-lg: 24px;
+
+  --shadow : rgba(17, 17, 26, 0.1) 0px 0px 16px;
 }

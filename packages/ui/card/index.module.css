@@ -1,0 +1,33 @@
+.card {
+  overflow: hidden;
+}
+
+
+.rounded-sm {
+  border-radius: var(--rounded-sm);
+}
+.rounded-md {
+  border-radius: var(--rounded-md);
+}
+.rounded-lg {
+  border-radius: var(--rounded-lg);
+}
+
+.neutral {
+  border : none;
+  background-color: var(--light);
+}
+
+.success {
+  border : 4px solid var(--secondary);
+  background-color: var(--light);
+}
+
+.info {
+  border : none;
+  background-color: var(--highlight);
+}
+
+.shadow {
+  box-shadow: var(--shadow);
+}
