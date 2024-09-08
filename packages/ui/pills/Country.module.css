@@ -1,0 +1,38 @@
+ .countryPill {
+    display: flex;
+    justify-content: center;
+    width: 64px;
+    height: 40px;
+    padding: 4px 0;
+    border-radius: var(--rounded-lg);
+    box-shadow : var(--dark-shadow);
+    background-color: var(--light);
+}
+
+.flag {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: url('../assets/flags.png') no-repeat;
+}
+
+.PT {
+    background-position: -5px -5px;
+}
+
+
+.FR {
+    background-position : -47px -5px;
+}
+
+
+.ES {
+    background-position : -5px -47px;
+}
+
+
+.DE {
+    background-position : -47px -47px;
+}
