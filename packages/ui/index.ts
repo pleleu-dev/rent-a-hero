@@ -7,3 +7,4 @@ export * from "./tabs";
 export * from "./theme";
 export * from "./card";
 export * from "./pills";
+export * from "./multiRangeSlider";

@@ -1,0 +1,95 @@
+.multiRangeSlider {
+  --rangeWidth: 260px;
+  display: grid;
+  grid-template-columns: 1fr var(--rangeWidth) 1fr ;
+  gap: 10px;
+}
+.slider {
+  position: relative;
+  align-content: center;
+  width: 100%;
+}
+
+.trackContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.sliderTrack{
+  position: absolute;
+  border-radius: 3px;
+  height: 5px;
+  background-color: #ced4da;
+  width: 100%;
+  z-index: 1;
+}
+.sliderRange{
+  position: absolute;
+  border-radius: 3px;
+  height: 5px;
+  background-color: var(--secondary-dark);
+  z-index: 2;
+}
+.leftValue {
+  justify-content: end;
+  font-size: 18px;
+  width: inherit;
+}
+.rightValue {
+  width: inherit;
+}
+
+/* Removing the default appearance */
+.thumb,
+.thumb::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.thumb {
+  pointer-events: none;
+  position: absolute;
+  height: 0;
+  width: var(--rangeWidth);
+  outline: none;
+}
+
+.thumbMin {
+  z-index: 3;
+}
+
+.thumbMax {
+  z-index: 4;
+}
+
+.thumbAbove {
+  z-index: 5;
+}
+
+/* For Chrome browsers */
+.thumb::-webkit-slider-thumb {
+  background-color: #f1f5f7;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 1px 1px #ced4da;
+  cursor: pointer;
+  height: 18px;
+  width: 18px;
+  margin-top: 4px;
+  pointer-events: all;
+  position: relative;
+}
+
+/* For Firefox browsers */
+.thumb::-moz-range-thumb {
+  background-color: #f1f5f7;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 1px 1px #ced4da;
+  cursor: pointer;
+  height: 18px;
+  width: 18px;
+  margin-top: 4px;
+  pointer-events: all;
+  position: relative;
+}
