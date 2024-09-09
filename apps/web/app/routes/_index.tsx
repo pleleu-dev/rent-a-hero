@@ -1,5 +1,16 @@
+import { useLoaderData } from "@remix-run/react";
+
+import { json } from "@remix-run/node";
+import { adaptTournament } from "@wnmx-poker/tournament";
+import { Card } from "@wnmx/ui";
+import data from "../assets/data.json";
+import { TournamentList } from "../components/TournamentList";
+
+import type { TournamentAPI } from "@wnmx-poker/tournament";
+
+import tournamentImage from "../assets/tournois.jpg";
+
 import type { MetaFunction } from "@remix-run/node";
-import { Content, Layout, Navigation, Tabs } from "@wnmx/ui";
 
 export const meta: MetaFunction = () => {
 	return [
@@ -11,15 +22,25 @@ export const meta: MetaFunction = () => {
 		},
 	];
 };
+export async function loader() {
+	return json(data);
+}
 
 export default function Index() {
+	const result = useLoaderData() as TournamentAPI[];
+	const data = result.map(adaptTournament); // Adapt the data to the tournament type
+
 	return (
-		<Layout>
-			<Navigation />
-			<Content>
-				<h1 className="text-2xl font-bold">Welcome to Winamax</h1>
-			</Content>
-			<Tabs />
-		</Layout>
+		<>
+			<Card className="overflow-hidden h-[278px]" borderRadius="md">
+				<img
+					src={tournamentImage}
+					alt="Tournois de poker"
+					width="100%"
+					height="auto"
+				/>
+			</Card>
+			<TournamentList data={data} />
+		</>
 	);
 }

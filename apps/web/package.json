@@ -15,6 +15,7 @@
 	},
 	"dependencies": {
 		"@wnmx-poker/tournament": "workspace:*",
+		"@wnmx/information": "workspace:*",
 		"@wnmx/ui": "workspace:*",
 		"@remix-run/node": "^2.11.1",
 		"@remix-run/react": "^2.11.1",
