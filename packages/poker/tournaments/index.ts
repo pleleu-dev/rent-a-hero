@@ -3,3 +3,4 @@
 export * from "./filter";
 export * from "./setOfThreeList";
 export * from "./registration";
+export * from "./headings";

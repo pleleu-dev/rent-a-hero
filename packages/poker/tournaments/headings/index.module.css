@@ -1,0 +1,8 @@
+.headings {
+  padding : 0 20px 0 20px;
+  background-color: var(--white);
+}
+.text {
+  font-family: var(--ft-semi-bold);
+}
+
