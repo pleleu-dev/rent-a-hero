@@ -1,6 +1,6 @@
 {
 	"name": "@wnmx/ui",
-	"description": "UI components",
+	"description": "I components",
 	"version": "1.0.0",
 	"scripts": {
 		"ts:check": "tsc --noEmit",
@@ -9,9 +9,11 @@
 	},
 	"dependencies": {
 		"classnames": "^2.5.1",
+		"lodash.debounce": "^4.0.8",
 		"react": "^18"
 	},
 	"devDependencies": {
+		"@types/lodash.debounce": "^4.0.9",
 		"@types/react": "^18",
 		"typescript": "^5",
 		"typescript-plugin-css-modules": "^5.1.0"
