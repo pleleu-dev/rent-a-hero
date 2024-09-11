@@ -1,3 +1,18 @@
 .tabs {
-  background-color: #f1f1f1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--white);
+  font-size : 40px;
+  
+}
+
+.tabs > * {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabs > * >*:last-child { 
+  font-size: 20px;
 }
