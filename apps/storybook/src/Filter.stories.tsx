@@ -20,6 +20,16 @@ export default meta;
 
 export const Example: StoryObj = {
   render: function Render() {
-    return <Filter />;
+    return (
+      <Filter
+        min={1}
+        max={100}
+        currentMin={10}
+        currentMax={50}
+        onChange={(value) => {
+          console.log(value);
+        }}
+      />
+    );
   },
 };

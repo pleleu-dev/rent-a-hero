@@ -19,7 +19,7 @@ export const AllPills: StoryObj = {
     return (
       <div className="flex gap-6">
         <CountryPill country="FR" />
-        <MoneyPill prize={1300} currency="€" />
+        <MoneyPill amount={1300} currency="€" />
         <RegisterPill />
       </div>
     );
