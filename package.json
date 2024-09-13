@@ -1,22 +1,19 @@
 {
-  "name": "winamax",
-  "version": "1.0.0",
-  "description": "",
-  "private": true,
-  "workspaces": [
-    "apps/**",
-    "packages/**"
-  ],
-  "scripts": {
-    "clear": "find . -type d -name 'node_modules' -exec rm -rf {} +"
-  },
-  "keywords": [],
-  "author": "P.Leleu",
-  "license": "ISC",
-  "packageManager": "pnpm@9.1.1",
-  "devDependencies": {
-    "@biomejs/biome": "1.8.3",
-    "turbo": "^2.0.11",
-    "vitest": "^2.0.5"
-  }
+	"name": "winamax",
+	"version": "1.0.0",
+	"description": "Winamax monorepo",
+	"private": true,
+	"workspaces": ["apps/**", "packages/**"],
+	"scripts": {
+		"clear": "find . -type d -name 'node_modules' -exec rm -rf {} +"
+	},
+	"keywords": [],
+	"author": "P.Leleu",
+	"license": "ISC",
+	"packageManager": "pnpm@9.1.1",
+	"devDependencies": {
+		"@biomejs/biome": "1.8.3",
+		"turbo": "^2.0.11",
+		"vitest": "^2.0.5"
+	}
 }
