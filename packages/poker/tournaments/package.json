@@ -4,7 +4,8 @@
 	"version": "1.0.0",
 	"main": "index.ts",
 	"scripts": {
-		"test": "vitest run",
+		"test": "vitest run --disable-console-intercept",
+		"test:coverage": "vitest run --coverage",
 		"ts:check": "tsc --noEmit",
 		"lint:check": "biome check --write",
 		"lint:fix": "biome check --fix"

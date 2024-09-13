@@ -16,7 +16,8 @@
 		"module": "preserve",
 		"noEmit": true,
 		"jsx": "react-jsx",
-		"lib": ["es2022", "dom", "dom.iterable"]
+		"lib": ["es2022", "dom", "dom.iterable"],
+		"types": ["@testing-library/jest-dom"]
 	},
 	"exclude": ["node_modules"],
 	"include": ["./types/*.d.ts", "**/*.ts", "**/*.tsx"]
