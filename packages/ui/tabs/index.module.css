@@ -2,8 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: var(--white);
-  font-size : 40px;
-  
+  font-size: 40px;
 }
 
 .tabs > * {
@@ -13,6 +12,6 @@
   align-items: center;
 }
 
-.tabs > * >*:last-child { 
-  font-size: 20px;
+.tabs > * > *:last-child {
+  font-size: 1.25rem;
 }
