@@ -3,11 +3,11 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  padding : 20px;
+  padding: 20px;
   background-color: var(--white);
   font-family: var(--ft-bold);
-  font-size: 18px;
-  line-height: 18px;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
 }
 
 .filterBox {
@@ -23,29 +23,27 @@
   top: 4px;
   left: 4px;
   color: var(--primary);
-
 }
 
-.title{
+.title {
   font-family: var(--ft-semi-bold);
-  font-size: 18px;
-  line-height: 18px;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
   margin-top: 10px;
 }
 
-.label{
+.label {
   align-self: flex-start;
-  font-size : 16px;
+  font-size: 1rem;
   font-family: var(--ft-semi-bold);
 }
 
-.criteria{
+.criteria {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
 }
 
-.rangeSlider{
+.rangeSlider {
   margin-top: 10px;
 }
-
