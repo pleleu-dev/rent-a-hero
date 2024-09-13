@@ -102,7 +102,7 @@ const Readme = () => {
 						<li>
 							Design System: Implement a design system using tools like Figma or
 							Sketch to define and manage design tokens (colors, fonts, spacing,
-							etc.) for consistent UI across the app. consistent design
+							etc.) for consistent UI across the app.
 						</li>
 					</ul>
 				</div>
@@ -110,15 +110,15 @@ const Readme = () => {
 					<h3>UX :</h3>
 					<ul>
 						<li>
-							Allow manual entry of min and max budget for filtering.
-							<br />
-							Increase max budget cap to €10,000 with potentially an exponential
-							slider for better user control.
-							<br />
-							Implement a "close on scroll" feature to hide the filter panel
-							when the user scrolls away.
-							<br />
-							Add a "reset button to clear all filter selections.
+							Data filtering is not user friendly
+							<br />- Allow manual entry of min and max budget for filtering.
+							<br />- Max budget was set to 500 because most of the tournaments
+							are in this range. To increase max budget cap to €10,000, we
+							should create an exponential slider for better user control (in
+							steps of 1, 10, 50, 100...)
+							<br />- Implement a "close on scroll" feature to hide the filter
+							panel when the user scrolls tournaments.
+							<br />- Add a "reset button to clear all filter selections.
 						</li>
 						<li>
 							There is no loading component when the data is being fetched, it
@@ -217,7 +217,7 @@ const Readme = () => {
 							device size
 						</li>
 						<li>
-							The filter algorithm should be fine tuned to optimizedperformance
+							The filter algorithm should be fine tuned to optimized performance
 						</li>
 						<li>
 							Implement caching strategies to reduce server load and improve

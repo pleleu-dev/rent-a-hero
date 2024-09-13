@@ -1,6 +1,6 @@
 .readme {
   background-color: #f6f6f6;
-  padding: 1rem 0 10rem;
+  padding: 1rem 1rem 10rem;
 }
 
 .readme h1 {
@@ -24,9 +24,9 @@
   border-bottom: 1px solid var(--primary);
 }
 
-.readme ul{
+.readme ul {
   list-style-type: disc;
-  margin: 0.5rem 0 0.5rem 20px;
+  margin: 0.5rem 0 0.5rem 1.25rem;
 }
 
 .readme ul li {
@@ -44,5 +44,3 @@
 .readme p {
   margin-top: 0.5rem;
 }
-
-
