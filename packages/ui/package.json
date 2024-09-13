@@ -1,8 +1,10 @@
 {
 	"name": "@wnmx/ui",
-	"description": "I components",
+	"description": "UI components",
 	"version": "1.0.0",
 	"scripts": {
+		"test": "vitest run",
+		"test:coverage": "vitest run --coverage",
 		"ts:check": "tsc --noEmit",
 		"lint:check": "biome check --write",
 		"lint:fix": "biome check --fix --unsafe"
@@ -13,8 +15,15 @@
 		"react": "^18"
 	},
 	"devDependencies": {
+		"@testing-library/dom": "^10.4.0",
+		"@testing-library/jest-dom": "^6.5.0",
+		"@testing-library/react": "^16.0.1",
+		"@testing-library/user-event": "^14.5.2",
+		"@types/jest": "^29.5.12",
 		"@types/lodash.debounce": "^4.0.9",
 		"@types/react": "^18",
+		"@vitest/coverage-v8": "^2.1.0",
+		"jsdom": "^25.0.0",
 		"typescript": "^5",
 		"typescript-plugin-css-modules": "^5.1.0"
 	}
