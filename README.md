@@ -46,6 +46,8 @@ The turbo.json file configures Turbo tasks for building the application. Current
 
 `test`: Test the application.
 
+`test:coverage` : To display the coverage of the tests.
+
 `ts:check`: Runs type checking on TypeScript files.
 
 `lint:check`: Runs code linting checks.

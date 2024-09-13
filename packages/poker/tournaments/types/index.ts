@@ -1,3 +1,4 @@
+/* v8 ignore */
 export type State = "neutral" | "info" | "success";
 
 export enum Icon {

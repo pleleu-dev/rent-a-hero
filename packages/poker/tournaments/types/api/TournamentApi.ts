@@ -1,3 +1,5 @@
+/* v8 ignore */
+
 export interface TournamentAPI {
 	tournamentId: number;
 	name: string;

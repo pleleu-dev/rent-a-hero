@@ -178,6 +178,7 @@ const Readme = () => {
 							The storybook app should have visual tests to make sure there is
 							no regression
 						</li>
+						<li>Test coverage can be improve</li>
 					</ul>
 				</div>
 				<div>
