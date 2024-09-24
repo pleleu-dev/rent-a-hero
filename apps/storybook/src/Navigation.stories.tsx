@@ -1,6 +1,6 @@
 import React from "react";
 import type { StoryObj, Meta } from "@storybook/react";
-import { Navigation } from "@wnmx/ui";
+import { Navigation } from "@rah/ui";
 
 const meta: Meta = {
   title: "UI/Navigation",

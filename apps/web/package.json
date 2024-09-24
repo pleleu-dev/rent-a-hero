@@ -1,6 +1,6 @@
 {
 	"name": "web",
-	"description": "Web frontend for the poker tournaments app",
+	"description": "Web frontend for the rent a hero app",
 	"version": "1.0.0",
 	"private": true,
 	"sideEffects": false,
@@ -17,9 +17,9 @@
 		"@remix-run/node": "^2.12.0",
 		"@remix-run/react": "^2.12.0",
 		"@remix-run/serve": "^2.12.0",
-		"@wnmx-poker/tournament": "workspace:*",
-		"@wnmx/information": "workspace:*",
-		"@wnmx/ui": "workspace:*",
+		"@rah-heroes/search": "workspace:*",
+		"@rah/information": "workspace:*",
+		"@rah/ui": "workspace:*",
 		"isbot": "^4.4.0",
 		"react": "^18.3.1",
 		"react-dom": "^18.3.1"

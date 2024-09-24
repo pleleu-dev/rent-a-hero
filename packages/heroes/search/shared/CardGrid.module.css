@@ -1,0 +1,32 @@
+.cardGrid{
+  display: grid;
+  justify-content: space-between;
+  align-content: center;
+  grid-template-columns: repeat(3, 4fr) repeat(2, 4fr);
+}
+
+.cardGrid > * {
+  display: flex;
+  align-items: center;
+}
+
+.cardGrid > *:first-child {
+  justify-content: start;
+}
+
+.cardGrid > *:nth-child(2) {
+  justify-content: start
+}
+
+.cardGrid > *:nth-child(3) {
+  justify-content: right;
+}
+.cardGrid > *:nth-child(4) {
+  justify-content: right;
+}
+
+.cardGrid > *:last-child {
+  justify-content: right;
+}
+
+

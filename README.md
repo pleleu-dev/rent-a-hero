@@ -1,8 +1,8 @@
-# winamax
+# Rent a hero
 
 ## Description
 
-Winamax Front-End Software Engineer technical test - Poker
+Rent a hero is a sample app 
 
 ## Getting Started
 

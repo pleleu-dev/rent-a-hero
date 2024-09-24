@@ -1,7 +1,7 @@
 import React from "react";
 import type { StoryFn, StoryObj, Meta } from "@storybook/react";
-import { Card } from "@wnmx/ui";
-import imageFile from "./assets/tournois.jpg";
+import { Card } from "@rah/ui";
+import imageFile from "./assets/image.jpg";
 
 const meta: Meta = {
 	title: "UI/Card",

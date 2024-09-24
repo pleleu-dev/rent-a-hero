@@ -5,8 +5,8 @@
   "author": "P.Leleu",
   "type": "module",
   "dependencies": {
-    "@wnmx-poker/tournament": "workspace:*",
-    "@wnmx/ui": "workspace:*",
+    "@rah-heroes/search": "workspace:*",
+    "@rah/ui": "workspace:*",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

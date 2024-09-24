@@ -1,6 +1,6 @@
 import React from "react";
 import type { StoryObj, StoryFn, Meta } from "@storybook/react";
-import { CountryPill, MoneyPill, RegisterPill } from "@wnmx/ui";
+import { CountryPill, MoneyPill, RegisterPill } from "@rah/ui";
 
 const meta: Meta = {
   title: "UI/Pills",

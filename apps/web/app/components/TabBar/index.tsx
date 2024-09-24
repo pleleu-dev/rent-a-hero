@@ -1,5 +1,5 @@
+import { Tabs } from "@rah/ui";
 import { Link, useLocation } from "@remix-run/react";
-import { Tabs } from "@wnmx/ui";
 
 const TabBar = () => {
 	const location = useLocation();

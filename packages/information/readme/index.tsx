@@ -5,16 +5,13 @@ const Readme = () => {
 		<div className={style.readme}>
 			<h1>Readme</h1>
 			<article>
-				<h2>Welcome to the Winamax monorepo!</h2>
+				<h2>Welcome to the Rent a hero monorepo!</h2>
 				<p>This repo contains 2 apps :</p>
 				<ul>
-					<li>
-						A simple poker app that allows you to filter and register to
-						tournaments.
-					</li>
+					<li>A app that allows you to filter and search heroes.</li>
 					<li>A storybook that displays all the UI components.</li>
 				</ul>
-				<p>
+				<div>
 					This app is built with React and TypeScript. It was build using a
 					feature by package architecture.
 					<br />
@@ -24,10 +21,10 @@ const Readme = () => {
 					There are 3 main features in this app:
 					<ul>
 						<li>
-							<b>Poker:</b> Contains all the components related to the poker.{" "}
+							<b>Heroes:</b> Contains all the components related to heroes.
 							<br />
-							It has a sub package "tournaments" that contains all the
-							components related to the tournaments.
+							It has a sub package "search" that contains all the components
+							related to the search.
 						</li>
 						<li>
 							<b>UI:</b> Contains all the UI building block that are shared
@@ -38,11 +35,11 @@ const Readme = () => {
 							information to users, including this readme.
 						</li>
 					</ul>
-				</p>
+				</div>
 			</article>
 			<article>
 				<h2>Pre-requisite</h2>
-				<p>
+				<div>
 					To run the app, you need to have NodeJs - Turbo and pnpm installed.
 					<br />
 					You can install them by following their documentation
@@ -75,7 +72,7 @@ const Readme = () => {
 							</a>
 						</li>
 					</ul>
-				</p>
+				</div>
 			</article>
 			<article>
 				<h2>How to run the apps</h2>
@@ -111,13 +108,9 @@ const Readme = () => {
 					<ul>
 						<li>
 							Data filtering is not user friendly
-							<br />- Allow manual entry of min and max budget for filtering.
-							<br />- Max budget was set to 500 because most of the tournaments
-							are in this range. To increase max budget cap to €10,000, we
-							should create an exponential slider for better user control (in
-							steps of 1, 10, 50, 100...)
+							<br />- Allow manual entry of min and max price for filtering.
 							<br />- Implement a "close on scroll" feature to hide the filter
-							panel when the user scrolls tournaments.
+							panel when the user scrolls heroes.
 							<br />- Add a "reset button to clear all filter selections.
 						</li>
 						<li>
@@ -158,7 +151,7 @@ const Readme = () => {
 							which pages to index
 						</li>
 						<li>
-							The tournaments should have Rich Results to have a better
+							The search list should have Rich Results to have a better
 							visibility in the search results
 						</li>
 					</ul>
@@ -189,8 +182,8 @@ const Readme = () => {
 							To improve the accessibility, the app should have a11y tests
 						</li>
 						<li>
-							The tournament list items should offer a comprehensive description
-							of the tournament
+							The hero list items should offer a comprehensive description of
+							the hero
 						</li>
 					</ul>
 				</div>
@@ -211,7 +204,7 @@ const Readme = () => {
 						</li>
 						<li>
 							To improve the user experience (avoid an empty page) server side
-							rendering should render a tournament list
+							rendering should render a hero list
 						</li>
 						<li>
 							Images should be adaptive with different "srcset" depending on

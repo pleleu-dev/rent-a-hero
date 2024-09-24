@@ -1,7 +1,7 @@
 {
-	"name": "winamax",
+	"name": "Rent a hero",
 	"version": "1.0.0",
-	"description": "Winamax monorepo",
+	"description": "Rent a hero monorepo",
 	"private": true,
 	"workspaces": [
 		"apps/**",

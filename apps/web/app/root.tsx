@@ -6,7 +6,7 @@ import {
 	ScrollRestoration,
 } from "@remix-run/react";
 
-import { Content, Navigation, Layout as PageLayout } from "@wnmx/ui";
+import { Content, Navigation, Layout as PageLayout } from "@rah/ui";
 import { TabBar } from "./components/TabBar";
 import "./tailwind.css";
 

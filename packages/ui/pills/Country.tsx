@@ -4,19 +4,19 @@ import style from "./Country.module.css";
 const flag = {
 	DE: {
 		background: style.DE,
-		label: "Tournois en allemand",
+		label: "German hero",
 	},
 	FR: {
 		background: style.FR,
-		label: "Tournois en français",
+		label: "French hero",
 	},
 	ES: {
 		background: style.ES,
-		label: "Tournois en espagnol",
+		label: "Spanish hero",
 	},
 	PT: {
 		background: style.PT,
-		label: "Tournois en portugais",
+		label: "Portuguese hero",
 	},
 };
 

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import type { StoryObj, StoryFn, Meta } from "@storybook/react";
-import { Tabs } from "@wnmx/ui";
+import { Tabs } from "@rah/ui";
 
 const TabBar = () => {
   const [location, setLocation] = useState("/");
